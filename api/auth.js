@@ -6,7 +6,7 @@ export default function handler(req, res) {
   const { key, account } = req.body;
 
   const validLicenses = {
-    "CLIENT-KEY-999X": "1234567",
+    "CLIENT-KEY-999X": "10010505635",
     "MASTER-KEY-0001": "9876543",
   };
 
