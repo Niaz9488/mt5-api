@@ -30,5 +30,5 @@ export default function handler(req, res) {
   }
 
   // Logic 3: If account matches and date is good, authorize the bot!
-  return res.status(200).json({ status: "valid", message: "Authorized" });
+  return res.status(200).json({ status: "valid", message: "Authorized", expiry: userRecord.expiry });
 }
