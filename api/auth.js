@@ -9,7 +9,7 @@ export default function handler(req, res) {
   // --- UPGRADED DATABASE WITH EXPIRATION DATES ---
   // Format: "KEY": { account: "MT5_NUMBER", expiry: "YYYY-MM-DD" }
   const validLicenses = {
-    "CLIENT-KEY-999X": { account: "10010505635", expiry: "2026-05-14" }, // 30-Day Key
+    "CLIENT-KEY-999X": { account: "10010529929", expiry: "2026-05-14" }, // 30-Day Key
     "TRIAL-JOHN-7DAY": { account: "10010505635", expiry: "2026-04-21" },   // Short Trial
     "LIFETIME-VIP-KEY": { account: "10010505635", expiry: "2099-12-31" }   // Lifetime Access
   };
