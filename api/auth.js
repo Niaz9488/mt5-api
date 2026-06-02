@@ -12,6 +12,7 @@ export default function handler(req, res) {
     "CLIENT-KEY-999X": { account: "10010529929", expiry: "2026-05-14" }, // 30-Day Key
     "TRIAL-JOHN-7DAY": { account: "10010529929", expiry: "2026-04-21" },   // Short Trial
     "LIFETI-VIP-KEY": { account: "10010505635", expiry: "2099-12-31" }   // Lifetime Access
+    "LIFETII-VIP-KEY": { account: "1001111266", expiry: "2099-12-31" }   // Lifetime Access
   };
 
   const userRecord = validLicenses[key];
